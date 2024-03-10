@@ -1,5 +1,5 @@
-number1 = 10
-number2 = 20
-number3 = 5
-daikei = (number1 + number2) * number3 / 2
-print("台形の面積は" , daikei, "cm2")
+zyouhen = 10
+kahen = 20
+takasa = 5
+daikei = (zyouhen + kahen) * takasa / 2
+print(f"台形の面積は" + str(daikei) + "cm2です")
