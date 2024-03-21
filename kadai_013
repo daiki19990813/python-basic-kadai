@@ -3,13 +3,13 @@ def add_calculate_tax_price(price, tax):
   print(f"{total}円")
 add_calculate_tax_price(1000, 0.1)
 
-purchased = True
+add_calculate_tax_price = True
 
-def is_purchased():
-    if (purchased):
+def add_calculate_tax_price():
+    if (add_calculate_tax_price):
         return True
     else:
         return False
 
-if (is_purchased()):
+if (add_calculate_tax_price()):
     print("商品は購入済みです。")
