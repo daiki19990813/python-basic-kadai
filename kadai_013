@@ -2,3 +2,14 @@ def add_calculate_tax_price(price, tax):
   total = int(price + price * tax)
   print(f"{total}円")
 add_calculate_tax_price(1000, 0.1)
+
+purchased = True
+
+def is_purchased():
+    if (purchased):
+        return True
+    else:
+        return False
+
+if (is_purchased()):
+    print("商品は購入済みです。")
