@@ -1,0 +1,8 @@
+array = ["水","金","地","火","木","土","天","海","冥"]
+for star in array:
+  print(star)
+
+i = 0
+while i < 9:
+  print(array[i]) # 星の名前を表示する
+  i = i + 1
