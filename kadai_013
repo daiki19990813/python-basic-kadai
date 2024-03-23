@@ -1,15 +1,14 @@
-def add_calculate_tax_price(price, tax):
-  total = int(price + price * tax)
-  print(f"{total}円")
-add_calculate_tax_price(1000, 0.1)
+def add_calculate_tax_price(price, tax_rate):
+  tax = price * tax_rate * 0.01
+  total = price + tax
+  return total
 
-add_calculate_tax_price = True
+price1 = 100
+price2 = 200
 
-def add_calculate_tax_price():
-    if (add_calculate_tax_price):
-        return True
-    else:
-        return False
+tax = 1.1
+def total():
 
-if (add_calculate_tax_price()):
-    print("商品は購入済みです。")
+  return price1 + price2
+
+print (total() * tax)
