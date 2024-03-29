@@ -3,12 +3,4 @@ def add_calculate_tax_price(price, tax_rate):
   total = price + tax
   return total
 
-price1 = 100
-price2 = 200
-
-tax = 1.1
-def total():
-
-  return price1 + price2
-
-print (total() * tax)
+add_calculate_tax_price(100, 10)
